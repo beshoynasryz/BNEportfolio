@@ -1,0 +1,48 @@
+.home {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    height: 100vh;
+    justify-items: stretch;
+    background-color: #1a1a2e; /* Deep navy blue background color */
+  }
+  
+  
+.home_img {
+    max-width: 100%;
+    height: auto;
+    /* Optional: Add rounded corners for a circular image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow for depth */
+    max-height: 600px; /* Set the maximum height as needed */
+    margin-left:20%; /* Move the image to the right */
+    margin-right: 0; /* Reset the default margin-right */
+    object-fit: cover;
+    border-radius: 5%;
+  }
+  
+
+.home__content {
+  max-width: 600px;
+}
+
+.home__title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.home__title span {
+  color:#1875cc; 
+}
+.home__title span:nth-child(2) {
+  color:#21754a; 
+}
+
+.home__description {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 2.235;
+}
