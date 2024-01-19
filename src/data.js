@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Beshoy',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Nasry',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '22 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Egyptian',
   },
 
   {
@@ -91,58 +91,50 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Egypt,Cairo',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+201095604355',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'beshoynasry0@gmail.com',
   },
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
+    title: 'Linkedin : ',
+    description: 'https://www.linkedin.com/in/beshoy-nasry-2a3627220/',
   },
+
 
   {
     id: 10,
     title: 'Langages : ',
-    description: 'French, English',
+    description: 'Arabic, English',
   },
 ];
+
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '2+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '6+',
     title: 'Completed <br /> Projects',
   },
 
-  {
-    id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
-  },
-
-  {
-    id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
-  },
+ 
 ];
 
 export const resume = [
@@ -150,62 +142,39 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2023',
+    title: ' Node.js Backend developer',
+    desc: 'At algoriza intership',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2022',
+    title: 'Frontend Instractor',
+    desc: 'Instractor at GDSC in modern academy ',
   },
+
+ 
 
   {
     id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-  },
-
-  {
-    id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2019-2023',
+    title: "bachelor's Computer Science",
+    desc: "bachelor's degree in Computer Science at Modern academy",
   },
 
-  {
-    id: 5,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 6,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
-  },
+ 
 ];
 
 export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '80',
   },
 
   {
@@ -222,14 +191,14 @@ export const skills = [
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'node.js',
+    percentage: '87',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    title: 'MongoDb',
+    percentage: '90',
   },
 
   {
@@ -240,14 +209,34 @@ export const skills = [
 
   {
     id: 7,
-    title: 'Angular',
+    title: 'React.js',
     percentage: '65',
   },
 
   {
     id: 8,
-    title: 'React',
+    title: 'MySql',
     percentage: '45',
+  },
+  {
+    id: 9,
+    title: 'Express',
+    percentage: '70',
+  },
+  {
+    id: 10,
+    title: 'php',
+    percentage: '45',
+  },
+  {
+    id: 11,
+    title: 'c++',
+    percentage: '72',
+  },
+  {
+    id: 12,
+    title: 'bootstrap',
+    percentage: '55',
   },
 ];
 

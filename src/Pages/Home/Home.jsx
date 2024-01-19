@@ -16,12 +16,16 @@ const Home = () => {
       <p className="home__description">
       MERN stack developer specializes in full-stack web development, leveraging MongoDB for data storage, Express.js for server-side application building, React for dynamic front-end interfaces, and Node.js for server-side JavaScript execution. Proficient in end-to-end development, they create robust, scalable web applications by seamlessly integrating these technologies throughout the development lifecycle.
       </p>
-      <Link to ='/About' className="button">
+     
+     </div>
+     <Link to ='/About' className="button">
           More About Me <span className="button__icon">
             <FaArrowCircleRight/>
           </span>
       </Link>
-     </div>
+
+    </div>
+    <div className="color__block">
 
     </div>
    </section>

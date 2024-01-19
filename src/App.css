@@ -106,11 +106,11 @@ button,input,textarea{
 img{
     max-width: 100%;
 }
+.section-title span{
+    color: var(--first-color);
+}
 /* ================================================================================================ */
-.grid{
+/* .grid{
     display: grid;
     gap :30px;
-}
-.section{
-    padding-block: 70px;
-}
+} */

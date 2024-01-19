@@ -45,6 +45,7 @@ a{
     background-color:#494D5F;
     border-radius: 5px;
     padding: 12px 10px;
+    
 }
 .nav__toggle span{
     display: block;
@@ -53,6 +54,7 @@ a{
     border-radius:2px ;
     background-color:#E5EAF5;
     margin-bottom: 5px;
+    
 }
 
 .animate-toggle span:first-child {
@@ -86,6 +88,7 @@ a{
     }
     .nav__item{
         margin-block: 20px;
+       
     }
     .nav__link{
         padding: 0;
