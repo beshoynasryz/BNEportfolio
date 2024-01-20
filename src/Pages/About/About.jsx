@@ -26,7 +26,7 @@ const About = () => {
                 <Info/>
             </ul>
             <a href={CV} download ='' className="button">
-              Download CV 
+              Download Cv 
               <span><FaDownload/></span>
             </a>
 
@@ -53,20 +53,23 @@ const About = () => {
       <h3 className="skills__subtitle section__title">Experience <span>&</span> Education </h3>
       <div className="resume__container grid">
 
-        <div className="resume__data">
-          {resume.map((val)=>{
-          if (val.category === 'experience'){
-            return <ResumeItem key={val.id} {...val} /> ;
-          }
-          })}
-        </div>
-        <div className="resume__data">
-          {resume.map((val)=>{
-          if (val.category === 'education'){
-            return <ResumeItem key={val.id} {...val} />;
-          }
-          })}
-        </div>
+                <div className="resume__data">
+            {resume.map((val) => {
+              if (val.category === 'experience') {
+                return <ResumeItem key={val.id} {...val} />;
+              }
+              return null; // Explicitly return null for other categories
+            })}
+          </div>
+          <div className="resume__data">
+            {resume.map((val) => {
+              if (val.category === 'education') {
+                return <ResumeItem key={val.id} {...val} />;
+              }
+              return null; // Explicitly return null for other categories
+            })}
+          </div>
+
       </div>
       </section>
     </main>
